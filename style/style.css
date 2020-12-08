@@ -329,12 +329,70 @@
     line-height: 16px;
     margin-top: 10px;
 }
+.team .team-body:hover h3{
+    color: #5bc5f4;
+    transition: all linear .3s;
+}
 .team .team-body h4{
     margin-top: 10px;
     font-size: 14px;
     line-height: 14px;
     font-weight: 400;
 }
+.testimonial{}
+.testimonial .testimonial-outer{}
+.testimonial .testimonial-outer .image{
+    text-align: center;
+}
+ .testimonial .testimonial-outer image img{
+     border-radius: 50%;
+     background-color: #f1f1f1;
+ } 
+.testimonial .testimonial-outer .testimonial-body{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    position: relative;
+    margin-top: 40px;
+}
+.testimonial .testimonial-outer .testimonial-body::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: -5px;
+    width: 40px;
+    height: 40px;
+    background-color: #f1f1f1;
+    transform: rotate(45deg) translateX(-50%);
+}
+.testimonial .testimonial-outer .testimonial-body h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 90;
+}
+.testimonial .testimonial-outer .testimonial-body ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+/* .testimonial .testimonial-outer .testimonial-body ul li{} */
+.testimonial .testimonial-outer .testimonial-body ul li i{
+    color: #5bc5f4;
+}
+.testimonial .testimonial-outer .testimonial-body h4{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 15px;
+}
+.testimonial .testimonial-outer .testimonial-body p{
+    font-size: 13px;
+    line-height: 23px;
+}
+
 
 /* team part end */
 
