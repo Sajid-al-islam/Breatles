@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatles</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/setup.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- starting git command -->
+
+    <!-- 
+        git config --global user.name 'your-name'
+        git config --global user.email 'your-email'
+        git remote add  origin [your repository link]
+
+        git add .
+        git commit -m 'your message'
+        git push -u origin master
+
+        special case:
+        git push -f origin master 
+    -->
+
+
+    <nav class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="logo">
+                        <img src="images/Beatles.png" alt="">
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="nav-links">
+                        <div class="hamburger">
+                            <i class="fas fa-bars hamburgers"></i>
+                        </div>
+                        <ul class="nav-all-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Testimonial</a></li>
+                            <li><a href="#">content</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-5">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="time" class="form-control time" id="exampleInputPassword1">
+            </div>
+            <style>
+                .time {
+                    width: 100px;
+                }
+
+                .time::-webkit-datetime-edit-ampm-field {
+                    display: none;
+                }
+
+                .time::-webkit-calendar-picker-indicator {
+                    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+                    display: none;
+                }
+
+                input[type=time]::-webkit-clear-button {
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    -o-appearance: none;
+                    -ms-appearance: none;
+                    appearance: none;
+                    margin: -10px;
+                    display: none;
+                }
+            </style>
+
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <p class="border border-primary py-5 shadow-lg p-3 mb-5 bg-white rounded mt-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis facilis libero fugiat! Provident quasi
+            reiciendis nobis ratione soluta magnam nulla nostrum placeat totam sapiente voluptas culpa rerum, accusamus
+            veniam sed!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis facilis libero fugiat! Provident quasi
+            reiciendis nobis ratione soluta magnam nulla nostrum placeat totam sapiente voluptas culpa rerum, accusamus
+            veniam sed!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis facilis libero fugiat! Provident quasi
+            reiciendis nobis ratione soluta magnam nulla nostrum placeat totam sapiente voluptas culpa rerum, accusamus
+            veniam sed!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis facilis libero fugiat! Provident quasi
+            reiciendis nobis ratione soluta magnam nulla nostrum placeat totam sapiente voluptas culpa rerum, accusamus
+            veniam sed!
+        </p>
+    </div>
+
+
+    <!-- <script src="js/jq.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/app.js"></script> -->
+
+    <!-- <div class="" style="margin-top: 200px;"></div> -->
+</body>
+
+</html>
